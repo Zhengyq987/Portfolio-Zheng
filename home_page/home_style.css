@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* 
+    e-Portfolio
+    WEBD5000 - Final Project
+    style page for home page
+
+    Author: Yuqing
+    Date: Oct 23, 2023
+ */
+
+
+html {
+  background-color: rgb(16, 19, 33);
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(16, 19, 33);
+}
+
+
+/* content style */
+#about {
+  background-color: rgb(145, 210, 224);
+
+}
+
+#work {
+  background-color: rgb(25, 27, 35);
+  color: white;
+  border: 1px solid rgba(145, 209, 224, 0.227);
+  border-radius: 25px;
+}
+
+#goals {
+  background-color: rgb(208, 178, 158);
+  border-radius: 25px;
+  text-align: right;
+}
+
+#resume {
+  background-color: rgb(172, 175, 237);
+  border-radius: 25px;
+  text-align: right;
+}
+
+.line2 {
+  font-weight: bold;
+}
+
+
+#goals a:link,
+#resume a:link {
+  color: rgb(16, 19, 33);
+  text-decoration: none;
+}
+
+#goals a:visited,
+#resume a:visited {
+  color: rgb(16, 19, 33);
+}
+
+#goals a:hover,
+#resume a:hover,
+#goals a:active,
+#resume a:active 
+{
+  color: white;
+  text-decoration: underline;
+}
+
+/* mobile style */
+@media only screen and (max-width: 480px) {
+
+  
+  #about {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  #work {
+    font-size: 1.6em;
+  }
+
+  #goals,
+  #resume,
+  .line2 {
+    font-size: 1.2em;
+  }
+}
+
+/* tablet style */
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  #about {
+    font-size: 1.1em;
+    text-align: justify;
+  }
+
+  #work {
+    font-size: 1.8em;
+  }
+
+  #goals,
+  #resume,
+  .line2 {
+    font-size: 1.4em;
+  }
+
+}
+
+/* desktop style */
+@media only screen and (min-width:769px) {
+  
+
+  #about {
+    font-size: 1.2em;
+  }
+
+  #work {
+    font-size: 2.2em;
+  }
+
+  #goals,
+  #resume,
+  .line2 {
+    font-size: 1.5em;
+  }
+}

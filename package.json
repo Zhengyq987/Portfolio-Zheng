@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@preline/dropdown": "^2.0.1"
+  }
+}

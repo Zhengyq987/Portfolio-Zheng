@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* 
+    e-Portfolio
+    WEBD5000 - Final Project
+    layout page for contact page
+
+    Author: Yuqing
+    Date: Oct 23, 2023
+
+ */
+
+
+
+/* content layout */
+h1 {
+    text-align: center;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.map {
+    width: 100%;
+}
+
+
+
+/* mobile and tablet layout */
+@media screen and (max-width: 768px) {
+    #link img {
+        display: none;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 40px 20px;
+    }
+
+    form {
+        margin-top: 10px;
+        padding: 30px;
+    }
+
+    #link {
+        background-color: rgb(145, 210, 224);
+    }
+
+    
+
+}
+
+
+/* desktop layout */
+@media only screen and (min-width:769px) {
+    section {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        margin: 80px 30px 40px 30px;
+    }
+
+    #link {
+        margin-left: 40px;
+    }
+
+    form {
+        padding: 70px 60px 30px 60px;
+    }
+}

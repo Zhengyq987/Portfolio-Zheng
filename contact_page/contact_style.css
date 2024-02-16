@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* 
+    e-Portfolio
+    WEBD5000 - Final Project
+    style page for contact page
+
+    Author: Yuqing
+    Date: Oct 23, 2023
+ */
+
+
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(16, 19, 33);
+   color: white;
+}
+
+/* content style */
+
+form {
+   background-color: rgb(25, 27, 35);
+   border: 1.5px solid rgba(145, 209, 224, 0.227);
+   border-radius: 25px;
+
+}
+
+aside {
+   background-color: rgb(208, 178, 158);
+   padding: 40px;
+   border-radius: 25px;
+   color: rgb(16, 19, 33);
+}
+
+aside a:link {
+   color: rgb(16, 19, 33);
+   text-decoration: none;
+}
+
+aside a:hover,
+aside a:active {
+   color: rgb(16, 19, 33);
+   text-decoration: underline;
+
+}
+
+aside a:visited {
+   color: rgb(16, 19, 33)
+}
+
+
+/* mobile and tablet style */
+@media only screen and (max-width: 768px) {
+
+   /* h1 {
+      font-size: 1.4em;
+   } */
+
+   section {
+      font-size: 1.1em;
+   }
+
+   #link {
+      background-color: rgb(145, 210, 224);
+   }
+}
+
+/* tablet style */
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+   /* h1 {
+      font-size: 1.6em;
+   } */
+}
+
+/* desktop style */
+@media only screen and (min-width:769px) {
+   section {
+      font-size: 1.3em;
+   }
+}

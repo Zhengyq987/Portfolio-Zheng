@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* 
+    e-Portfolio
+    WEBD5000 - Final Project
+    layout page for home page
+
+    Author: Yuqing
+    Date: Oct 23, 2023
+
+ */
+
+
+/* content layout */
+#goals,
+#work,
+#resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+/* mobile and tablet layout */
+@media only screen and (max-width: 768px) {
+    #about {
+        margin: 30px 20px 0 20px;
+        padding: 80px 20px 20px 20px;
+        border-radius: 25px;
+
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:auto;
+        margin: 20px 20px;
+        column-gap: 20px;
+    }
+
+    aside p {
+        margin: 0px 30px 20px 30px;
+    }
+
+    #work {
+        grid-column: 1 /span 2;
+        grid-row: 1;
+        margin: 0 0 20px 0;
+        height: 100px;
+    }
+
+    .line1 {
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+}
+
+/* desktop layout */
+@media only screen and (min-width:769px) {
+    #about {
+        margin: 30px 30px 0 30px;
+        padding: 80px 100px 40px 40px;
+        border-radius: 25px;
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        margin: 20px 30px;
+    }
+
+    aside p {
+        margin: 5px 40px 40px 40px;
+    }
+
+    #work {
+        margin-right: 20px;
+    }
+
+    #resume {
+        margin-left: 20px;
+    }
+
+
+    .line1 {
+        margin-top: 200px;
+        margin-bottom: 0;
+    }
+}

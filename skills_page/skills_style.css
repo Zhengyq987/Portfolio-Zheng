@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* 
+    e-Portfolio
+    WEBD5000 - Final Project
+    style page for skills' page
+
+    Author: Yuqing
+    Date: Oct 23, 2023
+ */
+
+
+html {
+  background-color: rgb(16, 19, 33);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(16, 19, 33);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.skills {
+  margin: 30px 100px;
+}
+
+h3 {
+  background-color: rgb(145, 210, 224);
+  padding: 15px 20px;
+  border-radius: 15px;
+  color: rgb(16, 19, 33);
+}
+
+.skills article {
+  background-color: rgb(25, 27, 35);
+  padding: 15px 20px 15px 20px;
+  border: 1.5px solid rgba(145, 209, 224, 0.227);
+  border-radius: 25px;
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+
+/* mobile style */
+@media only screen and (max-width:480px) {
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  .skills {
+    margin: 20px 10px;
+    font-size: 0.7em;
+  }
+
+  .skills article {
+    margin-top: 20px;
+    padding: 8px;
+  }
+
+  h3 {
+    margin: 8px;
+  }
+
+  .skills ul {
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: justify;
+  }
+}
+
+
+/* tablet style */
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  .skills {
+    margin: 20px 10px;
+    font-size: 0.9em;
+  }
+
+  .skills article {
+    margin-top: 20px;
+    padding: 8px;
+  }
+
+  h3 {
+    margin: 8px;
+  }
+
+  .skills ul {
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: justify;
+  }
+}
