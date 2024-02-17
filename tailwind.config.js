@@ -15,10 +15,14 @@ module.exports = {
     extend: {
       colors:{
         'light-blue': 'rgb(145, 210, 224)',
-        'black-1': 'rgb(16, 19, 33)'
+        'black-1': 'rgb(16, 19, 33)',
+        'black-2':'rgb(25, 27, 35)'
       },
       fontSize: {
         'h1': '1.4em'
+      },
+      spacing: {
+        '128': '32rem',
       }
     },
   },
