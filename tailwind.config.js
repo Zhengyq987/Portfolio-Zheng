@@ -16,10 +16,12 @@ module.exports = {
       colors:{
         'light-blue': 'rgb(145, 210, 224)',
         'black-1': 'rgb(16, 19, 33)',
-        'black-2':'rgb(25, 27, 35)'
+        'black-2':'rgb(25, 27, 35)',
+        'borderblue':'rgba(145, 209, 224, 0.227)'
       },
       fontSize: {
-        'h1': '1.4em'
+        'h1': '1.4em',
+        'xxs': '10px'
       },
       spacing: {
         '128': '32rem',

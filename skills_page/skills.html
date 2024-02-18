@@ -16,14 +16,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Yuqing's e-portfolio</title>
    
-   <link href="skills_style.css" rel="stylesheet">
+  
    <link href="/dist/output.css" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link href="reset.css" rel="reset_stylesheet">
     <!-- reset stylesheet is from: https://necolas.github.io/normalize.css/8.0.1/normalize.css -->
 </head>
 
-<body>
+<body class="bg-black-1 text-white">
    <header class="text-white">
       <nav class="flex items-center justify-between gap-12 px-12 h-16">
          
@@ -46,45 +46,74 @@
    </header>
 
    
-   <div class="text-white mt-8 md:text-3xl sm:text-2xl font-bold">
+   <div id="header" class="text-white text-center mt-8 md:text-3xl text-2xl font-bold">
       <h1>My Skills</h1>
       </div>
 
 
-
-   <section class="skills">
-      <article>
-         <h3>HTML (Hypertext Markup Language):</h3>
+<div id="content" class=" mx-6 md:mx-12 mt-16 sm:text-lg text-l">
+   <section id="skills" class="flex sm:flex-row flex-col-reverse p-8  md:p-12 bg-black-2 border-borderblue border-solid border-2 rounded-3xl">
+      <div id="context" class="flex-1">
+         <h3 class="text-light-blue font-bold">Programming Languages:</h3>
          <ul>
-            <li>Understanding the semantic structure of HTML, using appropriate
-               tags like header, nav, main, etc., to improve accessibility and SEO.</li>
+            <li>Proficient in JavaScript.</li>
+               <li>Experience with server-side languages like Node.js.</li>
+               <li>Familiarity with front-end languages: HTML5, CSS3.</li>
+               
          </ul>
-      </article>
-
-      <article>
-         <h3> CSS (Cascading Style Sheets):</h3>
+     
+         <h3 class="text-light-blue font-bold pt-4"> Front-End Development:</h3>
          <ul>
-            <li>Selectors and Specificity: Proficiency in selecting HTML elements
-               and understanding specificity rules for styling.</li>
-
-            <li>Responsive Design: Creating responsive layouts that adapt
-               to different screen sizes and devices.</li>
+            <li>Strong expertise in front-end frameworks/libraries such as React, Vue.js.</li>
+            <li>Responsive web design using CSS frameworks (e.g., Bootstrap, Tailwind CSS).</li>
+            <li>Real-time communication with Socket.io.</li>
          </ul>
-      </article>
-
-      <article>
-         <h3>JavaScript:</h3>
+     
+         <h3 class="text-light-blue font-bold pt-4">Back-End Development:</h3>
          <ul>
-            <li>Understanding the fundamental concepts of JavaScript, including variables, data types, and operators.
-            </li>
-            <li>Proficiency in working with control structures like loops (for, while) and conditional statements (if,
-               switch).
-               Strong grasp of functions and the ability to define, call, and pass arguments to functions.</li>
+            <li>Server-side development with Node.js.</li>
+            <li>Knowledge of server-side frameworks like Express.js.</li>
+            <li>Database management using technologies like MongoDB and MySQL.</li>
          </ul>
-      </article>
-      
+     
+         <h3 class="text-light-blue font-bold pt-4">Other technologies:</h3>
+         <ul>
+            <li>Proficient with Git for version control.</li>
+            <li>Experience with platforms like GitHub.</li>
+            <li>Familiarity with Jest testing libraries/frameworks.</li>
+            <li>Experience working in Agile/Scrum environments.</li>
+            <li>Building cross-platform desktop applications with Electron.</li>
+         </ul>
+      </div>
+      <div id="icons" class="flex-2 text-white grid grid-cols-4">
+         
+         <img src="../pics/JavaScript.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/HTML5.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/CSS3.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/React.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Express.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Node.js.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+
+         <img src="../pics/Git.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Tailwind CSS.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Bootstrap.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+
+         <img src="../pics/MongoDB.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Azure SQL Database.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Vite.js.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+
+         <img src="../pics/Electron.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/GitHub Actions.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Jest.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         <img src="../pics/Socket.io.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+
+         <img src="../pics/Sass.png" class="object-contain sm:h-14 sm:w-14 h-10 w-10 bg-slate-100 p-1.5 m-2 rounded-2xl shadow-md shadow-gray-400">
+         
+      </div>
    </section>
 
+   
+</div>
    <script>
       const toggleBtn=document.querySelector(".toggle-button");
       const dropdown  = document.querySelector(".dropdown-menu");
